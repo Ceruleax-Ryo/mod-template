@@ -8,7 +8,7 @@ Delete this file once the new mod is set up.
 
 ## Starting a new mod
 
-1. Create the repository from this template (`gh repo create <name> --template Ceruleax/mod-template`)
+1. Create the repository from this template (`gh repo create <name> --template Ceruleax-Ryo/mod-template`)
    or copy the folder.
 2. In `stonecutter.properties.toml`, set `mod.id`, `mod.name`, `mod.description`,
    `mod.repository` and `mod.side`.

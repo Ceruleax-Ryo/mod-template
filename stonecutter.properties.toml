@@ -7,7 +7,7 @@ mod.name = "Template"
 mod.version = "0.1.0"
 mod.description = "A short description of the mod."
 # GitHub "owner/repository", used for the links in the mod metadata.
-mod.repository = "Ceruleax/mod-template"
+mod.repository = "Ceruleax-Ryo/mod-template"
 # Which side the mod's logic runs on: "server" or "client".
 # "server" mods also load on clients so that they work on the integrated server.
 mod.side = "server"
