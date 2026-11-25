@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "Ceruleax"
+  ],
+  "contact": {
+    "homepage": "https://github.com/${repository}",
+    "sources": "https://github.com/${repository}",
+    "issues": "https://github.com/${repository}/issues"
+  },
+  "license": "MIT",
+  "environment": "${environment}",
+  "entrypoints": {
+    "main": [
+      "com.ceruleax.template.TemplateMod"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader}",
+    "minecraft": "${minecraft}",
+    "java": ">=25"
+  }
+}
